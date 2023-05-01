@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Site Template</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap v5.2.3 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Theme Main CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+    <!-- Page Header -->
+    <header class="theme-header-template">
+        <div class="header-template-left gap-4">
+            <div class="three-dots d-xl-none" id="toggler">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+                    <line x1="3" y1="12" x2="21" y2="12" />
+                    <line x1="3" y1="6" x2="21" y2="6" />
+                    <line x1="3" y1="18" x2="21" y2="18" />
+                </svg>
+            </div>
+            <div class="input-group">
+                <span class="input-group-text"><img src="assets/images/search.svg" alt=""></span>
+                <input type="text" class="form-control ps-0 border-start-0" id="floatingInputGroup1" placeholder="Search">
+            </div>
+        </div>
+        <div class="header-template-right">
+            <!-- user notifications -->
+            <div class="user-notification-wrap">
+                <div class="dropdown">
+                    <div class="dropdown-toggle notification-dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="https://app.roboimages.com/public/assets/img/notification-icon.png" alt="userlogo">
+                    </div>
+                    <ul class="dropdown-menu notification-dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item user-dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item user-dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item user-dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- user profile -->
+            <div class="user-profile-wrap">
+                <div class="dropdown">
+                    <div class="dropdown-toggle user-dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img class="user-profile-img" src="https://app.roboimages.com/public///assets/img/default-user.png" alt="userlogo">
+                        <p class="user-profile-name">MD AL AMIN</p>
+                    </div>
+                    <ul class="dropdown-menu mt-3 p-0" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item  user-dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item  user-dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item  user-dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Page aside -->
+    <aside class="theme-sidenav-wrap">
+        <div class="theme-logo-wrapper">
+            <div class="d-flex justify-content-between position-relative">
+                <a href="#" class="w-100 ps-4">
+                    <img src="http://localhost/roboimage/public/assets/img/robo_logo.png" alt="avatar" class="img-fluid">
+                </a>
+                <div id="toggler" class="side-nav-arror-wrap" data-toggle="sidenav" data-target="#full-screen-example">
+                    <img src="http://localhost/roboimage/public/assets/img/nav-arrow.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="theme-sidenavs-wrap">
+            <ul class="sidenav-menu">
+                <li class="nav-item" data-menu="dashboard" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Dashboard">
+                    <a class="nav-link sidenav-link sidenav-link-active" href="index.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home">
+                            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+                            <polyline points="9 22 9 12 15 12 15 22" />
+                        </svg>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li class="nav-item" data-menu="image-templates" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Template">
+                    <a class="nav-link sidenav-link" href="template.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-layout">
+                            <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
+                            <line x1="3" y1="9" x2="21" y2="9" />
+                            <line x1="9" y1="21" x2="9" y2="9" />
+                        </svg>
+                        <span>Templates</span>
+                    </a>
+                </li>
+                <li class="nav-item" data-menu="image-templates" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Template">
+                    <a class="nav-link sidenav-link" href="button.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bold">
+                            <path d="M6 4h8a4 4 0 0 1 4 4 4 4 0 0 1-4 4H6z" />
+                            <path d="M6 12h9a4 4 0 0 1 4 4 4 4 0 0 1-4 4H6z" />
+                        </svg>
+                        <span>Buttons</span>
+                    </a>
+                </li>
+                <li class="nav-item" data-menu="image-templates" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Template">
+                    <a class="nav-link sidenav-link" href="form.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map">
+                            <polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6" />
+                            <line x1="8" y1="2" x2="8" y2="18" />
+                            <line x1="16" y1="6" x2="16" y2="22" />
+                        </svg>
+                        <span>Forms</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </aside>
+    <!-- Page Main content -->
+    <div class="theme-page-content pt-3">
+        <!-- theme table -->
+        <div class="p-4 bg-white shadow my-3">
+            <div>
+                <h3 class="title-lg">Overview</h3>
+            </div>
+            <div class="theme-data-table-wrap table-responsive scrollbar-primary">
+                <table class="table theme-data-table  ">
+                    <thead>
+                        <tr>
+                            <th class="theme-th-styled table-first-col">Name</th>
+                            <th class="theme-th-styled table-second-col">Email</th>
+                            <th class="theme-th-styled table-third-col">Company</th>
+                            <th class="theme-th-styled table-four-col">Occupation</th>
+                            <th class="theme-th-styled table-five-col text-end">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="theme-td-styled table-first-col">MD AL AMIN</td>
+                            <td class="theme-td-styled table-second-col">alamin.nava@gmail.com</td>
+                            <td class="theme-td-styled table-third-col">Polyuno.com</td>
+                            <td class="theme-td-styled table-four-col">Executive Chef Marina Bay Sands</td>
+                            <td class="table-five-col">
+                                <!-- Default dropstart button -->
+                                <div class="dropup dropstart text-end position-static">
+                                    <button type="button" class="bg-transparent dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-vertical">
+                                            <circle cx="12" cy="12" r="1" />
+                                            <circle cx="12" cy="5" r="1" />
+                                            <circle cx="12" cy="19" r="1" />
+                                        </svg>
+                                    </button>
+                                    <ul class="dropdown-menu p-0">
+                                        <!-- Dropdown menu links -->
+                                        <li class="dropstart-item">Delete</li>
+                                        <li class="dropstart-item">Move</li>
+                                        <li class="dropstart-item">Move</li>
+                                        <li class="dropstart-item">Move</li>
+                                    </ul>
+                                </div>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!-- theme table -->
+        <div class="p-4 bg-white shadow my-3">
+            <div>
+                <h3 class="title-lg">Overview</h3>
+            </div>
+            <div class="theme-data-table-wrap table-responsive scrollbar-primary">
+                <table class="table theme-data-table  ">
+                    <thead>
+                        <tr>
+                            <th class="theme-th-styled table-first-col">Name</th>
+                            <th class="theme-th-styled table-second-col">Status</th>
+                            <th class="theme-th-styled table-third-col">Company</th>
+                            <th class="theme-th-styled table-four-col">Occupation</th>
+                            <th class="theme-th-styled table-five-col">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="theme-td-styled table-first-col">MD AL AMIN</td>
+                            <td class="theme-td-styled table-second-col">
+                                <span class="badge  bg-primary">Running</span>
+                            </td>
+                            <td class="theme-td-styled table-third-col">Polyuno.com</td>
+                            <td class="theme-td-styled table-four-col">Executive Chef Marina Bay Sands</td>
+                            <td class="table-five-col">
+                                <div class="d-flex gap-3">
+                                    <button class="btn btn-xs btn-outline-primary">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye">
+                                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+                                            <circle cx="12" cy="12" r="3" />
+                                        </svg>
+                                    </button>
+                                    <button class="btn btn-xs btn-outline-secondary">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit">
+                                            <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
+                                            <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
+                                        </svg>
+                                    </button>
+                                    <button class="btn btn-xs btn-outline-danger">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trash-2">
+                                            <polyline points="3 6 5 6 21 6" />
+                                            <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2" />
+                                            <line x1="10" y1="11" x2="10" y2="17" />
+                                            <line x1="14" y1="11" x2="14" y2="17" />
+                                        </svg>
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="theme-td-styled table-first-col">Micheal John Doe</td>
+                            <td class="theme-td-styled table-second-col">
+                                <span class="badge  bg-success">Success</span>
+                            </td>
+                            <td class="theme-td-styled table-third-col">Otto.com</td>
+                            <td class="theme-td-styled table-four-col">Los Angeles, California,United States</td>
+                            <td class="table-five-col">
+                                <div class="d-flex gap-3">
+                                    <button class="btn btn-xs btn-outline-primary">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye">
+                                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+                                            <circle cx="12" cy="12" r="3" />
+                                        </svg>
+                                    </button>
+                                    <button class="btn btn-xs btn-outline-secondary">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit">
+                                            <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
+                                            <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
+                                        </svg>
+                                    </button>
+                                    <button class="btn btn-xs btn-outline-danger">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trash-2">
+                                            <polyline points="3 6 5 6 21 6" />
+                                            <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2" />
+                                            <line x1="10" y1="11" x2="10" y2="17" />
+                                            <line x1="14" y1="11" x2="14" y2="17" />
+                                        </svg>
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="theme-td-styled table-first-col">Dummy Micheal John</td>
+                            <td class="theme-td-styled table-second-col">
+                                <span class="badge bg-danger text-dark">Panding</span>
+                            </td>
+                            <td class="theme-td-styled table-third-col text-muted">facebook.com</td>
+                            <td class="theme-td-styled table-four-col">Chef Marina Bay Sands</td>
+                            <td class="table-five-col">
+                                <div class="d-flex gap-3">
+                                    <button class="btn btn-xs btn-outline-primary">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye">
+                                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+                                            <circle cx="12" cy="12" r="3" />
+                                        </svg>
+                                    </button>
+                                    <button class="btn btn-xs btn-outline-secondary">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit">
+                                            <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
+                                            <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
+                                        </svg>
+                                    </button>
+                                    <button class="btn btn-xs btn-outline-danger">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trash-2">
+                                            <polyline points="3 6 5 6 21 6" />
+                                            <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2" />
+                                            <line x1="10" y1="11" x2="10" y2="17" />
+                                            <line x1="14" y1="11" x2="14" y2="17" />
+                                        </svg>
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!-- According -->
+        <div class="p-4 bg-white shadow my-3">
+            <h3 class="title-lg pb-3">Accordion</h3>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Accordion Item #1
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            Accordion Item #2
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                            Accordion Item #3
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- theme pagination -->
+        <div class="p-4 bg-white shadow my-3">
+            <h3 class="title-lg pb-3">Pagination</h3>
+            <nav>
+                <ul class="pagination">
+                    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                </ul>
+            </nav>
+            <h3 class="title-lg pb-3">Pagination with icons</h3>
+            <nav>
+                <ul class="pagination">
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Previous">
+                            <span aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-left">
+                                    <polyline points="15 18 9 12 15 6" />
+                                </svg>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next">
+                            <span aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                                    <polyline points="9 18 15 12 9 6" />
+                                </svg>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!-- input -->
+        <div class="p-4 bg-white shadow my-3">
+            <h3 class="title-lg pb-3">Input</h3>
+            <!-- theme form  -->
+            <form class="row g-3">
+                <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="inputPassword4">
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress" class="form-label">Address</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress2" class="form-label">Address 2</label>
+                    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputCity" class="form-label">City</label>
+                    <input type="text" class="form-control" id="inputCity">
+                </div>
+
+                <div class="col-md-6">
+                    <label for="inputZip" class="form-label">Zip</label>
+                    <select class="theme-select-input">
+                        <option value="hide">-- Month --</option>
+                        <option value="january">January</option>
+                        <option value="february">February</option>
+                        <option value="march">March</option>
+                        <option value="april">April</option>
+                        <option value="may">May</option>
+                        <option value="june">June</option>
+                        <option value="july">July</option>
+                        <option value="august">August</option>
+                        <option value="september">September</option>
+                        <option value="october">October</option>
+                        <option value="november">November</option>
+                        <option value="december">December</option>
+                    </select>
+                </div>
+                <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                            Check me out
+                        </label>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Sign in</button>
+                </div>
+            </form>
+        </div>
+        <!-- theme Switches box -->
+        <div class="p-4 bg-white shadow my-3 rounded rounded-3">
+            <h3 class="title-lg pb-3"> Switches</h3>
+            <div class="form-check form-switch gap-3 d-flex align-items-center cursor-pointer">
+                <input class="form-check-input" type="checkbox" id="prifixChecked">
+                <label class="form-check-label" for="prifixChecked">Default switch checkbox input</label>
+            </div>
+        </div>
+        <!-- theme Badge -->
+        <div class="p-4 bg-white shadow my-3">
+            <h3 class="title-lg pb-3">Badge styled</h3>
+            <span class="badge bg-primary">Badge Primary</span>
+            <span class="badge bg-secondary">Badge Secondary</span>
+            <span class="badge bg-success">Badge Success</span>
+            <span class="badge bg-danger">Badge Danger</span>
+            <span class="badge bg-warning">Badge Warning</span>
+            <span class="badge bg-info">Badge Info</span>
+            <span class="badge bg-light text-dark">Light</span>
+            <span class="badge bg-dark">Dark</span>
+        </div>
+        <!-- theme add anathor field -->
+        <div class="p-4 bg-white shadow my-3">
+            <h3 class="title-lg pb-3">Added (fs)</h3>
+            <p class="fs-1">font size (fs-1)</p>
+            <p class="fs-2">font size (fs-2)</p>
+            <p class="fs-3">font size (fs-3)</p>
+            <p class="fs-4">font size (fs-4)</p>
+            <p class="fs-5">font size (fs-5)</p>
+            <p class="fs-6">font size (fs-6)</p>
+        </div>
+        <!-- theme add anathor field -->
+        <div class="p-4 bg-white shadow my-3">
+            <h3 class="title-lg pb-3"> Add input field</h3>
+            <div class="row">
+                <div class="add-another-field-wrap pb-3">
+                    <input class="form-control" type="text" placeholder="Name">
+                    <a class="add-more-field" href="#">Add More</a>
+                </div>
+                <div class="dynamic-another-field"></div>
+            </div>
+        </div>
+        <!-- Custom Check Box -->
+        <div class="p-4 bg-white shadow my-3">
+            <h3 class="title-lg pb-3">Custom Check Box</h3>
+            <h4 class="title-md pb-2">Disabled checkbox</h4>
+            <div class="form-check-disabled pb-4">
+                <div class="form-check form-check-disabled">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDisabled">
+                    <label class="form-check-label form-label" for="flexCheckDisabled">Disabled checkbox</label>
+                </div>
+                <div class="form-floating mt-2 theme-transition">
+                    <textarea class="form-control theme-transition" placeholder="Leave a comment here" id="floatingTextarea2" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+            <h4 class="title-md pb-2">Enabled checkbox</h4>
+            <div class="form-check-enabled pb-4">
+                <div class="form-check form-check-enabled">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckEnaabled">
+                    <label class="form-check-label form-label" for="flexCheckDisabled">Disabled checkbox</label>
+                </div>
+                <div class="form-floating mt-2 theme-transition">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+        </div>
+        <!-- Custom Selector -->
+        <div class="p-4 bg-white shadow my-3">
+            <h3 class="title-lg pb-3">Custom Select Without Plugin</h3>
+            <div class="d-flex gap-3">
+                <select class="theme-select-input">
+                    <option value="hide">-- Month --</option>
+                    <option value="january">January</option>
+                    <option value="february">February</option>
+                    <option value="march">March</option>
+                    <option value="april">April</option>
+                    <option value="may">May</option>
+                    <option value="june">June</option>
+                    <option value="july">July</option>
+                    <option value="august">August</option>
+                    <option value="september">September</option>
+                    <option value="october">October</option>
+                    <option value="november">November</option>
+                    <option value="december">December</option>
+                </select>
+
+                <select class="theme-select-input">
+                    <option value="hide">-- Year --</option>
+                    <option value="2010">2010</option>
+                    <option value="2011">2011</option>
+                    <option value="2012">2012</option>
+                    <option value="2013">2013</option>
+                    <option value="2014">2014</option>
+                    <option value="2015">2015</option>
+                </select>
+                <select class="theme-select-input">
+                    <option value="hide">-- Day --</option>
+                    <option value="2010">Saturday</option>
+                    <option value="2011">Sunday</option>
+                    <option value="2012">Monday</option>
+                    <option value="2013">Tuesday</option>
+                    <option value="2014">Wednesday</option>
+                    <option value="2015">Thursday</option>
+                    <option value="2015">Friday</option>
+                </select>
+            </div>
+        </div>
+        <!-- Section title -->
+        <div class="p-4 bg-white shadow my-3">
+            <h3 class="title-lg">Section Title</h3>
+            <h3 class="title-md">Section Sub Title</h3>
+            <p class="description-lg w-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <!-- theme Normal button -->
+        <div class="p-4 bg-white shadow my-3">
+            <!-- theme button related style -->
+            <h3 class="title-lg pb-3">Normal Button</h3>
+            <div class="d-lg-flex flex-wrap gap-4 pb-5 align-items-start">
+                <button type="button" class="btn btn-lg btn-primary">Primary</button>
+                <button type="button" class="btn btn-secondary">Secondary</button>
+                <button type="button" class="btn btn-sm btn-success">Success</button>
+                <button type="button" class="btn btn-danger">Danger</button>
+                <button type="button" class="btn btn-warning">Warning</button>
+                <button type="button" class="btn btn-info">Info</button>
+                <button type="button" class="btn btn-light">Light</button>
+                <button type="button" class="btn btn-dark">Dark</button>
+                <button type="button" class="btn btn-link">Click here</button>
+            </div>
+            <h3 class="title-lg pb-3">Outline Button</h3>
+            <div class="d-lg-flex flex-wrap gap-4 pb-5">
+                <button type="button" class="btn btn-outline-primary">Primary</button>
+                <button type="button" class="btn btn-outline-secondary">Secondary</button>
+                <button type="button" class="btn btn-outline-success">Success</button>
+                <button type="button" class="btn btn-outline-danger">Danger</button>
+                <button type="button" class="btn btn-outline-warning">Warning</button>
+                <button type="button" class="btn btn-outline-info">Info</button>
+                <button type="button" class="btn btn-outline-light">Light</button>
+                <button type="button" class="btn btn-outline-dark">Dark</button>
+            </div>
+            <h3 class="title-lg pb-3">Button icon</h3>
+            <div class="d-lg-flex flex-wrap gap-2 pb-4">
+                <button class="btn btn-xs btn-outline-primary">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye">
+                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+                        <circle cx="12" cy="12" r="3" />
+                    </svg>
+                </button>
+                <button class="btn btn-xs btn-outline-secondary">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit">
+                        <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
+                        <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
+                    </svg>
+                </button>
+                <button class="btn btn-xs btn-outline-danger">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trash-2">
+                        <polyline points="3 6 5 6 21 6" />
+                        <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2" />
+                        <line x1="10" y1="11" x2="10" y2="17" />
+                        <line x1="14" y1="11" x2="14" y2="17" />
+                    </svg>
+                </button>
+                <button class="btn btn-xs btn-outline-warning">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-alert-triangle">
+                        <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z" />
+                        <line x1="12" y1="9" x2="12" y2="13" />
+                        <line x1="12" y1="17" x2="12.01" y2="17" />
+                    </svg>
+                </button>
+                <button class="btn btn-xs btn-outline-success">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check">
+                        <polyline points="20 6 9 17 4 12" />
+                    </svg>
+                </button>
+                <button class="btn btn-xs btn-outline-info">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-info">
+                        <circle cx="12" cy="12" r="10" />
+                        <line x1="12" y1="16" x2="12" y2="12" />
+                        <line x1="12" y1="8" x2="12.01" y2="8" />
+                    </svg>
+                </button>
+                <button class="btn btn-xs btn-outline-dark">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-database">
+                        <ellipse cx="12" cy="5" rx="9" ry="3" />
+                        <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3" />
+                        <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" />
+                    </svg>
+                </button>
+            </div>
+            <h3 class="title-lg pb-3">Button Text with icon</h3>
+            <div class="d-lg-flex flex-wrap gap-3">
+                <button class="btn btn-with-icon btn-outline-primary">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye">
+                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+                        <circle cx="12" cy="12" r="3" />
+                    </svg>
+                    <span>View</span>
+                </button>
+                <button class="btn btn-with-icon btn-outline-secondary">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit">
+                        <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
+                        <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
+                    </svg>
+                    <span>Edit</span>
+                </button>
+                <button class="btn btn-with-icon btn-outline-danger">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trash-2">
+                        <polyline points="3 6 5 6 21 6" />
+                        <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2" />
+                        <line x1="10" y1="11" x2="10" y2="17" />
+                        <line x1="14" y1="11" x2="14" y2="17" />
+                    </svg>
+                    <span>Delete</span>
+                </button>
+                <button class="btn btn-with-icon btn-outline-warning">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-alert-triangle">
+                        <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z" />
+                        <line x1="12" y1="9" x2="12" y2="13" />
+                        <line x1="12" y1="17" x2="12.01" y2="17" />
+                    </svg>
+                    <span>Warning</span>
+                </button>
+                <button class="btn btn-with-icon btn-outline-success">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check">
+                        <polyline points="20 6 9 17 4 12" />
+                    </svg>
+                    <span>Sucess</span>
+                </button>
+                <button class="btn btn-with-icon btn-outline-info">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-info">
+                        <circle cx="12" cy="12" r="10" />
+                        <line x1="12" y1="16" x2="12" y2="12" />
+                        <line x1="12" y1="8" x2="12.01" y2="8" />
+                    </svg>
+                    <span>Info</span>
+                </button>
+                <button class="btn btn-with-icon btn-outline-dark">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-database">
+                        <ellipse cx="12" cy="5" rx="9" ry="3" />
+                        <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3" />
+                        <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" />
+                    </svg>
+                    <span>Dark</span>
+                </button>
+            </div>
+        </div>
+
+
+        <!-- theme Border -->
+        <div class="p-4 bg-white shadow my-3">
+            <h3 class="title-lg pb-3">Border</h3>
+            <div class="d-flex gap-2">
+                <div style="width: 120px; height:80px" class="border border-primary rounded "></div>
+                <div style="width: 120px; height:80px" class="border border-primary rounded-top "></div>
+                <div style="width: 120px; height:80px" class="border border-info rounded rounded-3"></div>
+                <div style="width: 120px; height:80px" class="border-top border-secondary rounded-0"></div>
+                <div style="width: 120px; height:80px" class="border-start border-dark rounded-0"></div>
+                <div style="width: 120px; height:80px" class="border-bottom border-danger rounded-0"></div>
+                <div style="width: 120px; height:80px" class="border-end border-dark rounded-0"></div>
+            </div>
+        </div>
+        <!-- theme serche box -->
+        <div class="p-4 bg-white shadow my-3">
+            <h3 class="title-lg pb-3">Search Box</h3>
+            <div class="position-relative">
+                <span class="theme-search-box-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+                        <circle cx="11" cy="11" r="8" />
+                        <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                    </svg>
+                </span>
+                <input type="text" class="form-control" placeholder="Search anything">
+            </div>
+        </div>
+        <div class="p-4 bg-white shadow my-3">
+            <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+                <div class="col">
+                    <div class="p-3 border bg-light">Row column</div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border bg-light">Row column</div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border bg-light">Row column</div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border bg-light">Row column</div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border bg-light">Row column</div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border bg-light">Row column</div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border bg-light">Row column</div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border bg-light">Row column</div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border bg-light">Row column</div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border bg-light">Row column</div>
+                </div>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="assets//images/img-1.svg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">An item</li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+            </ul>
+            <div class="card-body">
+                <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a>
+            </div>
+        </div>
+        <p class="description-lgcription text-truncate">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda quaerat exercitationem aut expedita iure? Voluptate, ullam alias optio eos laboriosam illum repudiandae natus corporis. Earum corporis impedit eligendi voluptatum dolores.</p>
+        <div class="d-grid gap-2">
+            <button class="btn btn-primary" type="button">Button</button>
+            <button class="btn btn-primary" type="button">Button</button>
+        </div>
+        <ul>
+            <li class="bg-white">item 1</li>
+            <li class="bg-black">item 1</li>
+            <li>item 1</li>
+            <li class="bg-body">item 1</li>
+        </ul>
+    </div>
+    <!-- Jquery JS-->
+    <script src="assets/js/vendor/jquery.min.js"></script>
+    <!-- Bootstrap Bundle 5.2.3 JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Theme Main JS-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+/* XX-Large devices (large desktops, less than 1600px) */
+ @media (max-width: 1600px) {
+    
+}
+/* X-Large devices (large desktops, less than 1400px) */
+ @media (max-width: 1400px) {
+
+    /* section sub title */
+    .section-sub-title{
+        font-size: 18px;
+        line-height: 32px;
+    }
+    /* section description */
+    .section-description{
+        font-size: 14px;
+        line-height: 19px;
+    }
+ } 
+/* Large devices (desktops, less than 1200px) */
+ @media (max-width: 1199px) {
+     .prifix-sidenav-wrap {
+        transform: translateX(-100%);
+    }
+    .prifix-header-template,
+    .prifix-page-content {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+}
+/* Medium devices (tablets, less than 992px) */
+ @media (max-width: 991px) {
+    
+ }
+/* Small devices (landscape phones, less than 768px) */
+ @media (max-width: 767px) {
+
+} 
+/* X-Small devices (portrait phones, less than 576px) */
+ @media (max-width: 575px) { 
+    .prifix-header-template,
+    .prifix-page-content {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+ } 

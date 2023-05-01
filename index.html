@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Site Template</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap v5.2.3 CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Theme Main CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body class="bg-primary">
+    <!-- Page Header -->
+    <header class="theme-header-template bg-primary">
+        <div class="header-template-left gap-4">
+            <div class="three-dots d-xl-none" id="toggler">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+                    <line x1="3" y1="12" x2="21" y2="12" />
+                    <line x1="3" y1="6" x2="21" y2="6" />
+                    <line x1="3" y1="18" x2="21" y2="18" />
+                </svg>
+            </div>
+            <h6 class="title-sm fw-bold text-white">Dashboard</h6>
+        </div>
+        <div class="header-template-right">
+            <div class="input-group">
+                <span class="input-group-text"><img src="assets/images/search.svg" alt=""></span>
+                <input type="text" class="form-control ps-0 border-start-0" id="floatingInputGroup1" placeholder="Type here">
+            </div>
+            <!-- user notifications -->
+            <div class="user-notification-wrap">
+                <div class="dropdown">
+                    <div class="dropdown-toggle notification-dropdown-toggle  text-white" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bell"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+                    </div>
+                    <ul class="dropdown-menu notification-dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item user-dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item user-dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item user-dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- user profile -->
+            <div class="user-profile-wrap">
+                <div class="dropdown">
+                    <div class="dropdown-toggle user-dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img class="user-profile-img" src="https://app.roboimages.com/public///assets/img/default-user.png" alt="userlogo">
+                        <p class="user-profile-name">John Doe</p>
+                    </div>
+                    <ul class="dropdown-menu mt-3 p-0" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item  user-dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item  user-dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item  user-dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Page aside -->
+    <aside class="theme-sidenav-wrap scrollbar-primary">
+        <div class="theme-logo-wrapper">
+            <div class="d-flex justify-content-between position-relative">
+                <a href="#" class="w-100 title-sm">
+                    Thrive Dashboard
+                </a>
+                <div id="toggler" class="side-nav-arror-wrap" data-toggle="sidenav" data-target="#full-screen-example">
+                    <img src="http://localhost/roboimage/public/assets/img/nav-arrow.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="theme-sidenavs-wrap">
+            <ul class="sidenav-menu">
+                <li class="nav-item" data-menu="dashboard" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Dashboard">
+                    <a class="nav-link sidenav-link sidenav-link-active" href="index.html">
+                        <span class="nav-link-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>                    </span>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li class="nav-item" data-menu="dashboard" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Dashboard">
+                    <a class="nav-link sidenav-link" href="#">
+                        <span class="nav-link-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>                    </span>
+                        <span>Buy Bitcoin</span>
+                    </a>
+                </li>
+                <li class="nav-item" data-menu="dashboard" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Dashboard">
+                    <a class="nav-link sidenav-link" href="#">
+                        <span class="nav-link-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-gift"><polyline points="20 12 20 22 4 22 4 12"/><rect x="2" y="7" width="20" height="5"/><line x1="12" y1="22" x2="12" y2="7"/><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/></svg>                    </span>
+                        <span>Deposit</span>
+                    </a>
+                </li>
+                <hr>
+                <div class="ps-4 mb-2">Account Pages</div>
+                <li class="nav-item" data-menu="dashboard" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Dashboard">
+                    <a class="nav-link sidenav-link" href="#">
+                        <span class="nav-link-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>                    </span>
+                        <span>Profile</span>
+                    </a>
+                </li>
+                <li class="nav-item" data-menu="dashboard" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Dashboard">
+                    <a class="nav-link sidenav-link" href="#">
+                        <span class="nav-link-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                    </span>
+                        <span>Logout</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </aside>
+    <!-- Page Main content -->
+    <div class="theme-page-content pt-3">
+        <!-- Dashboard Overview -->
+        <div class="row g-xl-4 g-3 mb-4">
+            <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="p-3 bg-white shadow rounded-3">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="dashboard-overview">
+                            <h6 class="title-sm mb-2 fs-sm fw-normal">Total Balance</h6>
+                            <h5 class="title-sm">$10101010</h5>
+                        </div>
+                        <div>
+                            <span class="dashboard-overview-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-dollar-sign"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="p-3 bg-white shadow rounded-3">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="dashboard-overview">
+                            <h6 class="title-sm mb-2 fs-sm fw-normal">BTC</h6>
+                            <h5 class="title-sm">0</h5>
+                        </div>
+                        <div>
+                            <span class="dashboard-overview-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-dollar-sign"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="p-3 bg-white shadow rounded-3">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="dashboard-overview">
+                            <h6 class="title-sm mb-2 fs-sm fw-normal">Ethereum</h6>
+                            <h5 class="title-sm">0</h5>
+                        </div>
+                        <div>
+                            <span class="dashboard-overview-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-dollar-sign"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="p-3 bg-white shadow rounded-3">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="dashboard-overview">
+                            <h6 class="title-sm mb-2 fs-sm fw-normal">Sales</h6>
+                            <h5 class="title-sm">$98701010</h5>
+                        </div>
+                        <div>
+                            <span class="dashboard-overview-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-dollar-sign"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row g-4">
+            <div class="col-xl-7 col-lg-6">
+                <div class="p-3 bg-white shadow rounded-3 h-100 ">
+                    <div class="rounded-3 p-4 h-100 master-card-box">
+                        <div class="mb-4 text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-wifi"><path d="M5 12.55a11 11 0 0 1 14.08 0"/><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><line x1="12" y1="20" x2="12.01" y2="20"/></svg>
+                        </div>
+                        <div class="d-flex align-items-center gap-2 mb-5">
+                            <span class="text-white">4562</span>
+                            <span class="text-white">1122</span>
+                            <span class="text-white">4594</span>
+                            <span class="text-white">7852</span>
+                        </div>
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex gap-4">
+                                <div class="">
+                                    <h6 class="title-sm text-white fw-light mb-2 fs-sm">Card Holder</h6>
+                                    <h5 class="title-sm text-white">Jack Peterson</h5>
+                                </div>
+                                <div class="">
+                                    <h6 class="title-sm text-white fw-light mb-2 fs-sm">Expires</h6>
+                                    <h5 class="title-sm text-white">11/12</h5>
+                                </div>
+                            </div>
+                            <div class="w-100" style="max-width: 60px;">
+                               <img src="assets/images/mclogo.png" alt="mclogo">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-5 col-lg-6">
+                <div class="p-3 bg-white shadow rounded-3 h-100">
+                    <div class="deposit-box rounded-3 p-4 h-100">
+                        <div class="d-flex justify-content-between flex-column h-100">
+                            <div class="dashboard-overview">
+                                <h6 class="title-md mb-4 text-white">Work with the rockets</h6>
+                                <p class="description text-white mb-4">Wealth creation is an evolutionarily recent positive-sum game. It is all about who take the opportunity first</p>
+                            </div>
+                            <div>
+                                <a href="#" class="text-white btn-arrow">
+                                    <span class="me-2">Deposit now</span>
+                                    <img class="btn-arrow-inner" src="assets/images/arrow-right.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-8 col-12">
+                <div class="p-3 bg-white shadow rounded-3">
+                    <div class="d-flex justify-content-between gap-3 mb-3">
+                        <div>
+                            <h6 class="title-sm">Buy Bitcoin</h6>
+                        </div>
+                        <div class="dropdown dropstart">
+                            <span class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-vertical">
+                                    <circle cx="12" cy="12" r="1"></circle>
+                                    <circle cx="12" cy="5" r="1"></circle>
+                                    <circle cx="12" cy="19" r="1"></circle>
+                                </svg>
+                            </span>
+                            <ul class="dropdown-menu" style="">
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th class="table-header">Companies</th>
+                                    <th class="table-header">Members</th>
+                                    <th class="table-header">Budget</th>
+                                    <th class="table-header" style="min-width: 150px;">Completion</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="table-details">
+                                        <div class="d-flex gap-3">
+                                            <img src="assets/images/xd.png" alt="logo" style="width: 24px; height: 24px;">
+                                            <p>Soft UI XD Version</span>
+                                        </div>
+                                    </td>
+                                    <td class="table-details">
+                                        <div class="d-flex">
+                                            <span class="bitcoin-member"><img src="assets/images/avatar-1.jpg" alt="member" class="user-img"></span>
+                                            <span class="bitcoin-member"><img src="assets/images/avatar-2.jpg" alt="member" class="user-img"></span>
+                                            <span class="bitcoin-member"><img src="assets/images/avatar-1.jpg" alt="member" class="user-img"></span>
+                                            <span class="bitcoin-member"><img src="assets/images/user.png" alt="member" class="user-img"></span>
+                                        </div>
+                                    </td>
+                                    <td class="table-details">$234532</td>
+                                    <td class="table-details">
+                                        <div class="description-sm text-dark">75%</div>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-primary" role="progressbar" aria-label="Basic example" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="table-details">
+                                        <div class="d-flex gap-3">
+                                            <img src="assets/images/xd.png" alt="logo" style="width: 24px; height: 24px;">
+                                            <p>Add Progress Track</span>
+                                        </div>
+                                    </td>
+                                    <td class="table-details">
+                                        <div class="d-flex">
+                                            <span class="bitcoin-member"><img src="assets/images/avatar-1.jpg" alt="member" class="user-img"></span>
+                                            <span class="bitcoin-member"><img src="assets/images/user.png" alt="member" class="user-img"></span>
+                                            <span class="bitcoin-member"><img src="assets/images/avatar-1.jpg" alt="member" class="user-img"></span>
+                                            <span class="bitcoin-member"><img src="assets/images/avatar-2.jpg" alt="member" class="user-img"></span>
+                                            <span class="bitcoin-member"><img src="assets/images/avatar-1.jpg" alt="member" class="user-img"></span>
+                                        </div>
+                                    </td>
+                                    <td class="table-details">$234532</td>
+                                    <td class="table-details">
+                                        <div class="description-sm text-dark">75%</div>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-primary" role="progressbar" aria-label="Basic example" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="table-details">
+                                        <div class="d-flex gap-3">
+                                            <img src="assets/images/xd.png" alt="logo" style="width: 24px; height: 24px;">
+                                            <p>Soft UI XD Version</span>
+                                        </div>
+                                    </td>
+                                    <td class="table-details">
+                                        <div class="d-flex">
+                                            <span class="bitcoin-member"><img src="assets/images/avatar-1.jpg" alt="member" class="user-img"></span>
+                                            <span class="bitcoin-member"><img src="assets/images/avatar-2.jpg" alt="member" class="user-img"></span>
+                                            <span class="bitcoin-member"><img src="assets/images/avatar-1.jpg" alt="member" class="user-img"></span>
+                                            <span class="bitcoin-member"><img src="assets/images/user.png" alt="member" class="user-img"></span>
+                                        </div>
+                                    </td>
+                                    <td class="table-details">$234532</td>
+                                    <td class="table-details">
+                                        <div class="description-sm text-dark">75%</div>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-primary" role="progressbar" aria-label="Basic example" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="table-details">
+                                        <div class="d-flex gap-3">
+                                            <img src="assets/images/xd.png" alt="logo" style="width: 24px; height: 24px;">
+                                            <p>Add Progress Track</span>
+                                        </div>
+                                    </td>
+                                    <td class="table-details">
+                                        <div class="d-flex">
+                                            <span class="bitcoin-member"><img src="assets/images/avatar-1.jpg" alt="member" class="user-img"></span>
+                                            <span class="bitcoin-member"><img src="assets/images/user.png" alt="member" class="user-img"></span>
+                                            <span class="bitcoin-member"><img src="assets/images/avatar-1.jpg" alt="member" class="user-img"></span>
+                                            <span class="bitcoin-member"><img src="assets/images/avatar-2.jpg" alt="member" class="user-img"></span>
+                                            <span class="bitcoin-member"><img src="assets/images/avatar-1.jpg" alt="member" class="user-img"></span>
+                                        </div>
+                                    </td>
+                                    <td class="table-details">$234532</td>
+                                    <td class="table-details">
+                                        <div class="description-sm text-dark">75%</div>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-primary" role="progressbar" aria-label="Basic example" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-4 col-12">
+                <div class="p-3 bg-white shadow rounded-3 h-100">
+                    <div class="mb-4">
+                        <h6 class="title-sm">Orders Overview</h6>
+                        <div class="mt-1 description-sm d-flex gap-1">
+                            <span class="d-inline-flex text-success">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-up"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/></svg>
+                            </span>
+                            <span>24% this month</span>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="d-flex gap-2 order-overview-item">
+                            <div class="order-overview-item-icon text-success">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bell"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+                            </div>
+                            <div>
+                                <h6 class="title-sm mb-2">$234234 Design changes</h6>
+                                <p class="description-sm">22 DEC 7:20 PM</p>
+                            </div>
+                        </div>
+                        <div class="d-flex gap-2 order-overview-item text-success">
+                            <div class="order-overview-item-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bell"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+                            </div>
+                            <div>
+                                <h6 class="title-sm mb-2">$234234 Design changes</h6>
+                                <p class="description-sm">22 DEC 7:20 PM</p>
+                            </div>
+                        </div>
+                        <div class="d-flex gap-2 order-overview-item text-success">
+                            <div class="order-overview-item-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bell"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+                            </div>
+                            <div>
+                                <h6 class="title-sm mb-2">$234234 Design changes</h6>
+                                <p class="description-sm">22 DEC 7:20 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Jquery JS-->
+    <script src="assets/js/vendor/jquery.min.js"></script>
+    <!-- Bootstrap Bundle 5.2.3 JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Theme Main JS-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
